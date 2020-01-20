@@ -151,3 +151,58 @@ header{
 	margin-top:1%;
 	margin-bottom: 1%;
 }
+
+#logo-small{
+	display: none;
+}
+
+
+@media (max-width:800px){
+	body{
+		max-width: 800px;
+		padding: 0%;
+		margin: 0%;
+	}
+
+	nav{
+		display: flex;
+		justify-content: space-evenly;
+
+	}
+
+	#circle_div{
+		display: none;
+	}
+
+	#web-words{
+		padding: 0%;
+		justify-content:flex-end;
+		text-align: center;
+		align-items: center;
+	}
+
+	#img_div{
+		display: flex;
+		max-width: 100%;
+		height: auto;
+	}
+
+	#img_div .middle-img{
+		width:100%;
+	}
+
+	#logo-div{
+		display: none;
+	}
+
+	#logo-small{
+		display: flex;
+		justify-content: center;
+		padding: 2%;
+	}
+
+	.box{
+		margin: 2%;
+	}
+}
+
