@@ -160,7 +160,6 @@ header{
 
 @media (max-width:800px){
 	body{
-		max-width: 800px;
 		padding: 0%;
 		margin: 0%;
 	}
@@ -209,7 +208,6 @@ header{
 
 @media(max-width:500px){
 	body{
-		max-width: 500px;
 		padding: 0%;
 		margin: 0%;
 	}
